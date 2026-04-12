@@ -12,9 +12,7 @@ const About = () => {
       <div className="about-content">
         <section className="about-section">
           <div className="profile-image">
-            <div className="placeholder-image">
-              <span>프로필 사진</span>
-            </div>
+            <img src="/profile.jpg" alt="건축가 프로필" className="profile-photo" />
           </div>
           <div className="about-text">
             <h2>안녕하세요</h2>
