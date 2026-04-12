@@ -1,0 +1,212 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 0.85rem 0 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.65rem;
+}
+
+.nav-row-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav-row-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.3s;
+  text-align: center;
+  line-height: 1.35;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 0.35rem 1.25rem;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 0.85rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  white-space: nowrap;
+  font-size: 0.95rem;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav-link.active {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* 최근 업데이트된 메뉴: 반짝임 */
+.nav-link--sparkle {
+  position: relative;
+  animation: nav-sparkle-glow 2.4s ease-in-out infinite;
+}
+
+.nav-link--sparkle::after {
+  content: '\2726';
+  font-size: 1.24em;
+  margin-left: 0.25em;
+  opacity: 0.55;
+  vertical-align: super;
+  display: inline-block;
+  animation: nav-sparkle-star 1.6s ease-in-out infinite;
+}
+
+@keyframes nav-sparkle-glow {
+  0%,
+  100% {
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.25);
+  }
+  50% {
+    text-shadow:
+      0 0 10px rgba(255, 255, 255, 0.9),
+      0 0 18px rgba(255, 248, 200, 0.65);
+  }
+}
+
+@keyframes nav-sparkle-star {
+  0%,
+  100% {
+    opacity: 0.35;
+    transform: scale(0.88) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.12) rotate(18deg);
+  }
+}
+
+.nav-link--sparkle:hover {
+  animation: nav-sparkle-glow 2.4s ease-in-out infinite;
+}
+
+.nav-link--sparkle.active {
+  animation: nav-sparkle-glow-active 2.4s ease-in-out infinite;
+}
+
+@keyframes nav-sparkle-glow-active {
+  0%,
+  100% {
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.4);
+  }
+  50% {
+    text-shadow:
+      0 0 12px rgba(255, 255, 255, 1),
+      0 0 22px rgba(255, 250, 220, 0.75);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-link--sparkle,
+  .nav-link--sparkle::after {
+    animation: none;
+  }
+
+  .nav-link--sparkle {
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.45);
+  }
+
+  .nav-link--sparkle::after {
+    opacity: 0.75;
+  }
+}
+
+.main-content {
+  flex: 1;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    padding: 0 1rem;
+  }
+
+  .logo {
+    font-size: 1.725rem;
+  }
+
+  .nav-menu {
+    gap: 0.25rem 0.5rem;
+  }
+
+  .nav-link {
+    padding: 0.45rem 0.65rem;
+    font-size: 0.88rem;
+  }
+
+  .main-content {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-menu {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-menu li {
+    width: 100%;
+  }
+
+  .nav-link {
+    display: block;
+    text-align: center;
+  }
+}

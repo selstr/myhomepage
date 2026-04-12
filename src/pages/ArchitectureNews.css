@@ -1,0 +1,255 @@
+.architecture-news {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
+.architecture-news-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 2rem 0;
+}
+
+.architecture-news-header h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 0.75rem;
+}
+
+.architecture-news .subtitle {
+  font-size: 1.25rem;
+  color: #666;
+  margin: 0;
+}
+
+.architecture-news-section-title {
+  font-size: 1.35rem;
+  color: #333;
+  margin: 0 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #667eea;
+}
+
+.architecture-news-featured {
+  margin-bottom: 3rem;
+}
+
+.featured-card {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.08) 0%, rgba(118, 75, 162, 0.08) 100%);
+  border: 1px solid rgba(102, 126, 234, 0.25);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.12);
+}
+
+.featured-badge {
+  display: inline-block;
+  margin: 0 0 0.75rem;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #667eea;
+  background: white;
+  border-radius: 20px;
+  border: 1px solid rgba(102, 126, 234, 0.35);
+}
+
+.featured-title {
+  font-size: 1.5rem;
+  color: #222;
+  margin: 0 0 1.25rem;
+  line-height: 1.35;
+}
+
+.featured-meta {
+  margin: 0 0 1.25rem;
+}
+
+.featured-meta-row {
+  display: grid;
+  grid-template-columns: 3.5rem 1fr;
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.featured-meta-row dt {
+  margin: 0;
+  font-weight: 600;
+  color: #667eea;
+}
+
+.featured-meta-row dd {
+  margin: 0;
+  color: #444;
+}
+
+.featured-meta-note {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.featured-summary {
+  margin: 0 0 1.5rem;
+  line-height: 1.8;
+  color: #555;
+  font-size: 1.05rem;
+}
+
+.featured-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.featured-cta {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.featured-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(102, 126, 234, 0.45);
+  color: white;
+}
+
+.featured-cta-secondary {
+  background: white;
+  color: #667eea;
+  border: 2px solid rgba(102, 126, 234, 0.5);
+}
+
+.featured-cta-secondary:hover {
+  background: rgba(102, 126, 234, 0.08);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+  color: #5a6fd6;
+}
+
+.featured-related {
+  margin-top: 1.75rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(102, 126, 234, 0.2);
+}
+
+.featured-related-title {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #555;
+  letter-spacing: 0.02em;
+}
+
+.featured-related-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.featured-related-link {
+  color: #667eea;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.featured-related-link:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
+.architecture-news-sources {
+  margin-top: 2rem;
+}
+
+.architecture-news-intro {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+  line-height: 1.7;
+  color: #555;
+}
+
+.architecture-news-intro p {
+  margin: 0;
+}
+
+p.architecture-news-intro {
+  margin: 0;
+}
+
+.architecture-news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.architecture-news-item {
+  margin: 0;
+}
+
+.architecture-news-link {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1rem;
+  background: white;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+  color: inherit;
+  border-left: 4px solid #667eea;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.architecture-news-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(102, 126, 234, 0.2);
+}
+
+.architecture-news-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.architecture-news-desc {
+  flex: 1;
+  min-width: 200px;
+  color: #666;
+  font-size: 1rem;
+}
+
+.architecture-news-arrow {
+  color: #667eea;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .architecture-news-header h1 {
+    font-size: 2rem;
+  }
+
+  .architecture-news-link {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

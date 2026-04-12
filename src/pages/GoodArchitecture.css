@@ -1,0 +1,100 @@
+.good-architecture {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
+.good-architecture-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 2rem 0;
+}
+
+.good-architecture-header h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 0.75rem;
+}
+
+.good-architecture .subtitle {
+  font-size: 1.25rem;
+  color: #666;
+  margin: 0;
+}
+
+.good-architecture-intro {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+  line-height: 1.7;
+  color: #555;
+}
+
+.good-architecture-intro p {
+  margin: 0;
+}
+
+.good-architecture-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.good-architecture-item {
+  margin: 0;
+}
+
+.good-architecture-link {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1rem;
+  background: white;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+  color: inherit;
+  border-left: 4px solid #764ba2;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.good-architecture-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(118, 75, 162, 0.2);
+}
+
+.good-architecture-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.good-architecture-desc {
+  flex: 1;
+  min-width: 200px;
+  color: #666;
+  font-size: 1rem;
+}
+
+.good-architecture-arrow {
+  color: #764ba2;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .good-architecture-header h1 {
+    font-size: 2rem;
+  }
+
+  .good-architecture-link {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
