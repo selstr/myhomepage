@@ -46,7 +46,7 @@ const GoodArchitecture = () => {
         <div className="showcase-grid">
           <Link to="/amorepacific" className="showcase-card">
             <div className="showcase-image">
-              <img src="/amorepacific.jpg" alt="아모레퍼시픽 본사" />
+              <img src="amorepacific.jpg" alt="아모레퍼시픽 본사" />
             </div>
             <div className="showcase-info">
               <h3>아모레퍼시픽 본사</h3>
