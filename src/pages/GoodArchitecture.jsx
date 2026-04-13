@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './GoodArchitecture.css'
 
 const places = [
@@ -42,7 +43,18 @@ const GoodArchitecture = () => {
       </div>
 
       <section className="good-architecture-intro">
-        <p>
+        <div className="showcase-grid">
+          <Link to="/amorepacific" className="showcase-card">
+            <div className="showcase-image">
+              <img src="/amorepacific.jpg" alt="아모레퍼시픽 본사" />
+            </div>
+            <div className="showcase-info">
+              <h3>아모레퍼시픽 본사</h3>
+              <p>용산의 새로운 랜드마크, 데이비드 치퍼필드의 걸작</p>
+            </div>
+          </Link>
+        </div>
+        <p className="intro-text">
           아래 링크는 사진·도면·역사적 맥락을 함께 볼 수 있는 사이트들입니다. 새 창에서 열립니다.
         </p>
       </section>

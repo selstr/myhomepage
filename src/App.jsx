@@ -6,6 +6,7 @@ import Works from './pages/Works'
 import Architects from './pages/Architects'
 import ArchitectureNews from './pages/ArchitectureNews'
 import GoodArchitecture from './pages/GoodArchitecture'
+import Amorepacific from './pages/Amorepacific'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/architects" element={<Architects />} />
           <Route path="/architecture-news" element={<ArchitectureNews />} />
           <Route path="/good-architecture" element={<GoodArchitecture />} />
+          <Route path="/amorepacific" element={<Amorepacific />} />
         </Routes>
       </Layout>
     </Router>
