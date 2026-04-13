@@ -7,26 +7,26 @@ const Amorepacific = () => {
 
 
   const streetPhotos = [
-    { src: '/amorepacific_street_1.jpg', alt: '거리에서 본 아모레퍼시픽 1' },
-    { src: '/amorepacific_street_2.jpg', alt: '거리에서 본 아모레퍼시픽 2' },
-    { src: '/amorepacific_street_3.jpg', alt: '거리에서 본 아모레퍼시픽 3' },
-    { src: '/amorepacific_street_4.jpg', alt: '거리에서 본 아모레퍼시픽 4' },
-    { src: '/amorepacific_street_5.jpg', alt: '거리에서 본 아모레퍼시픽 5' },
+    { src: 'amorepacific_street_1.jpg', alt: '거리에서 본 아모레퍼시픽 1' },
+    { src: 'amorepacific_street_2.jpg', alt: '거리에서 본 아모레퍼시픽 2' },
+    { src: 'amorepacific_street_3.jpg', alt: '거리에서 본 아모레퍼시픽 3' },
+    { src: 'amorepacific_street_4.jpg', alt: '거리에서 본 아모레퍼시픽 4' },
+    { src: 'amorepacific_street_5.jpg', alt: '거리에서 본 아모레퍼시픽 5' },
   ]
 
   const entrancePhotos = [
-    { src: '/amorepacific_entrance_1.jpg', alt: '아모레퍼시픽 입구 1' },
-    { src: '/amorepacific_entrance_2.jpg', alt: '아모레퍼시픽 입구 2' },
-    { src: '/amorepacific_entrance_3.jpg', alt: '아모레퍼시픽 입구 3' },
-    { src: '/amorepacific_entrance_4.jpg', alt: '아모레퍼시픽 입구 4' },
+    { src: 'amorepacific_entrance_1.jpg', alt: '아모레퍼시픽 입구 1' },
+    { src: 'amorepacific_entrance_2.jpg', alt: '아모레퍼시픽 입구 2' },
+    { src: 'amorepacific_entrance_3.jpg', alt: '아모레퍼시픽 입구 3' },
+    { src: 'amorepacific_entrance_4.jpg', alt: '아모레퍼시픽 입구 4' },
   ]
 
   const firstFloorPhotos = [
-    { src: '/amorepacific_1f_1.jpg', alt: '아모레퍼시픽 1층 1' },
-    { src: '/amorepacific_1f_2.jpg', alt: '아모레퍼시픽 1층 2' },
-    { src: '/amorepacific_1f_3.jpg', alt: '아모레퍼시픽 1층 3' },
-    { src: '/amorepacific_1f_4.jpg', alt: '아모레퍼시픽 1층 4' },
-    { src: '/amorepacific_1f_5.jpg', alt: '아모레퍼시픽 1층 5' },
+    { src: 'amorepacific_1f_1.jpg', alt: '아모레퍼시픽 1층 1' },
+    { src: 'amorepacific_1f_2.jpg', alt: '아모레퍼시픽 1층 2' },
+    { src: 'amorepacific_1f_3.jpg', alt: '아모레퍼시픽 1층 3' },
+    { src: 'amorepacific_1f_4.jpg', alt: '아모레퍼시픽 1층 4' },
+    { src: 'amorepacific_1f_5.jpg', alt: '아모레퍼시픽 1층 5' },
   ]
 
   const links = [
